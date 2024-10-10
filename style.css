@@ -71,3 +71,57 @@ body {
 .bottom-img {
     width: 100%;
 }
+
+/* -----------Services section ------------ */
+
+#services {
+    padding: 0 80px;
+}
+
+
+.services-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+
+}
+
+.services h4 {
+    padding: 20px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before {
+    content: "";
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: "";
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
