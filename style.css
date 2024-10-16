@@ -149,3 +149,29 @@ body {
 #about-us ul {
     margin-left: 20px;
 }
+
+
+/* Testimonials SEction */
+
+#testimonials {
+    margin: 100px 0;
+
+}
+
+.testimonials {
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details {
+    display: inline-block;
+    font-size: 12px;
+}
